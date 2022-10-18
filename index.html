@@ -19,6 +19,8 @@
             <li><a href="#OrderedList">Ordered List</a></li>
             <li><a href="#agraj">Agraj</a></li>
             <li><a href="#UnorderedList">Unordered List</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
        </nav>
        <hr>
@@ -66,7 +68,8 @@
             <li>Lorem, ipsum dolor.</li>
         </ul>
     </section>
-
+<hr>
+<section id="table">
 <table>
     <caption>Daily Schadule</caption>
     <tr><th>Time</th>
@@ -94,9 +97,124 @@
         </tr>
     </tfoot>
 </table>
-<br>
+</section>
+<hr>
+<section id="contact">
+    <article id="contact">
+        <h2>Contact Us</h2>
+        <p>I'd realy llike to here from you!</p>
+        <form action="https://www.creatorsunny.com/contactus" method="get">
+        <fieldset>
+            <lagend>Personal Information</lagend>
+        <p>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Ashwani" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="midName">Mid Name</label>
+            <input type="text" name=midtName" id="midName" placeholder="Kumar" autocomplete="on">
+        </p>
+        <p>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Maurya" autocomplete="on">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Your secret" required>
+        </p>
+        <p>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="0000000000" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+        </p>
+        <p>
+            <label for="decade">Favourite decade</label>
+            <input type="number" name="decade" id="decade" min="1950" max="2020"
+            step="10" value="2000">
+        </p>
+        <p>
+            <label for="coffee">Favourite Coffee:</label>
+            <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="iced coffee">Iced coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+                <option value="latte">Latte</option>
+                <option value="cappuccino" selected>Cappuccino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+            </optgroup>
+                <option value="others">Others</option>
+            </select>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <lagend>What is your favourite food?</lagend>
+        <p>
+            <input type="radio" name="food" id="tacos">
+            <label for="tacos">Tacos</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="pizza">
+            <label for="pizza">Pizza</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="others">
+            <label for="others">Others</label>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <lagend>Do you have pets?</lagend>
+        <p>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="rabbit" value="rabbit">
+            <label for="rabbit">Rabbit</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="tiger" value="tiger">
+            <label for="tiger">Tiger</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="snake" value="snake">
+            <label for="snake">Snake</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="cow" value="cow">
+            <label for="cow">Cow</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="otherPets" value="otherPets">
+            <label for="otherPets">Other Pets</label>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <lagend>Send me a Note</lagend>
+        <br>
+        <label for="message">Your Message</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https://www.creatorsunny.com/contactus" formmethod="post">Post</button>
+    <button type="reset">Reset</button>
+        </form>
+    </article>
+
+</section>
+<hr>
 <code>
-    &lt;h1&gt;Hritik&lt;/h1&gt;
+    &lt;h1&gt;Using HTML&lt;/h1&gt;
 </code>
 <br>
 
